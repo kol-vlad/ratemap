@@ -1,4 +1,4 @@
 # ratemap
 
 Is a great project!
-So far
+So far. Good job!
