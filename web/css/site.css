@@ -1,0 +1,243 @@
+html,
+body {
+    height: 100%;
+}
+h1,h2,h3 {color: #797676;text-align:center;}
+h2:after {display: block;
+height: 3px;
+width: 70px;
+background: #32b9b1;
+content: '';
+margin: 5px auto;}
+#change {cursor:pointer;color: #f27474;margin: 65px 25px 0px 25px;display:block; float:left; font-size: 45px;}
+#contact-form .form-control {border-radius:15px; border:2px solid #ccc;}
+.navbar {background-color: #ffffff!important;
+border-color: #a6c0cd!important;}
+#minord, #ordcur,#bb,#sb,#saf,#baf {width:100px;  margin-right:10px;height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;}
+	
+	#minord, #ordcur {float:left;}
+	
+.logoa {padding:5px 15px!important;}
+
+.give {padding: 0px 10px 0px 10px;
+margin-bottom: 20px;
+float: left;
+border: 1px solid #2d7794;
+border-radius: 15px;}
+#digits {width:100%;background:#ebf1f1; height:150px;}
+#digits b {font-size:40px;}
+.cont {display: flex;
+    justify-content: center;
+}
+.help-block {display:none;}
+.navbar-toggle .icon-bar {  
+    background: #000;
+}
+.digun {float:left;padding:20px;text-align:center; width:200px;}
+
+#about {clear:both; text-align:center;max-width:750px;margin:auto; overflow:hidden;}
+.abun {float: left;
+width: 250px;
+text-align: center;
+height: 280px;padding:20px;}
+.abun img {margin-bottom:40px;}
+.body-content p {margin:0px;}
+ .give input,.give select {border-radius:10px; margin-right:20px; width: 200px;}
+ .give button{border-radius:10px;}
+ #site-cashin {width: 180px;}
+ #site-incur {margin-right:0px;}
+ #site-outcur {width: 200px;}
+.jumbo {text-align:center; padding: 30px 40px;}
+.jumbo h1 {color:#3b84a5;}
+
+.show {margin-top:20px; height:34px; padding:5px 15px;width: 150px;}
+
+@media screen and (min-width: 768px){
+ #p0 .jumbotron {
+    padding-top: 28px;
+    padding-bottom: 28px;
+} .off-form > form > div { width:18%; float:left;height: 80px;padding: 0px 10px;}
+.off-form .field-office-addres { width:40%; }
+.off-form .field-office-lat, .off-form .field-office-lon { width:12%;}
+.field-banks-tel {float:left;}
+
+.field-banks-lrate {clear:both;}
+.field-banks-pars {clear:both;}
+.field-banks-state {float:left;}
+.field-currency-state, .field-currency-code, .field-currency-name, .field-currency-namecode { width:25%;height:80px; float:left;}
+
+.clients-index .form-group {
+    padding: 0px 20px;
+    width: 20%;
+float: left;}
+.clients-index select.form-control {
+    width: 50%;margin-right:10px;
+float: left;}
+.curform .field-site-cashin, .curform .field-site-incur, .curform .field-site-outcur {float:left;margin-top: -8px; padding:0px 40px; width:28%;}
+}
+
+@media screen and (max-width: 768px){
+	.jumbo {
+    text-align: center;
+    padding: 0px 40px;
+}
+i {Padding: 0px 0px 5px 5px!important;}
+.digun {
+    float: left;
+   width:50%;
+}
+#digits { overflow:hidden;height: 250px;}
+.cont {
+  display:block;
+}
+#about {clear:both; text-align:center;max-width:750px;margin:auto;}
+.abun {float: left;
+width: 100%;
+text-align: center;
+height: 280px;padding:20px;}
+.field-site-cashin {margin-right:10px!important;}
+.field-site-cashin, .field-site-outcur {width:50%;}
+#site-cashin {width: 100%!important;}
+ #site-incur {margin-right:0px;width: 100%!important;}
+ .field-site-outcur {width: 50%!important;margin-right:10px!important;}
+ #site-outcur {width: 100%!important;margin-right:20px;}
+
+
+}
+
+
+.table-bordered {
+    border: 1px solid #ddd;
+    background: #fcfcfc;
+}
+.curform {background:#f3f3f3; border-radius:5px;padding:20px; margin-bottom:20px;}
+.curform select {}
+
+.form-horizontal .control-label { padding-top: 0px; 
+}label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+     font-weight: 300; 
+}
+.form-group { padding:0px 20px;}
+.field-banks-parsurl, .field-banks-pars, .field-banks-parsfile, .field-banks-name, .field-banks-image, .field-site-cashin, .field-site-incur, .field-site-outcur {float:left;}
+.field-banks-time, .field-office-bank_id {display:none;}
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
